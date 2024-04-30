@@ -1,0 +1,98 @@
+
+body {
+/*    background: url('ship2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+
+	border: 5px solid green;
+  	text-align: center;
+  	color: red;
+  	font-size: 20px;
+}
+ 
+ 
+#contents {
+     display: flex;
+     justify-content: space-between;
+     border: 5px solid red;
+}
+       
+     
+#page_title {
+
+
+ 	border: 3px solid black;
+ 	padding: 5%;
+/* 	background: url('bs.jpg') no-repeat center center fixed;
+    background-size: cover;*/
+}
+
+
+#video {
+	justify-content: center;
+	align-items: center;
+	border: 5px solid blue;
+	width: 40%;
+	flex: left;
+/*	display: block;*/
+}
+  	
+  
+#tools {
+    justify-content: center;
+	align-items: center;
+	border: 5px solid blue;
+    width: 40%;
+/*	display: block;*/
+    flex: right;
+}   
+
+img {
+    padding: 5%;
+}
+  
+    	   
+h1 {
+	text-align: center;
+	text-decoration: underline gray;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+#v {
+ 	height: auto;
+	display: block;
+	border: 1px solid #ccc;
+    outline: none;
+    border: 3px solid black;
+    padding: 1%;
+    background-color: black;
+    border-color: red;
+}
+  	   
+#links {
+	color: black;
+    border: 5px solid blue;
+}
+
+p{
+	text-align: center;
+	color: blue;
+}
+
+#docs {
+	display: flex;
+	padding: 20px;
+}
+
+#pdf {
+	 overflow: hidden;
+}
+
+
+  	   
+  
+  
